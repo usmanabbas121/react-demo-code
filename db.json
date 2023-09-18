@@ -1,0 +1,110 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Usman Abbas",
+      "password": "admin",
+      "email": "usmanabbas304@gmail.com",
+      "phone": "03174681771",
+      "country": "pakistan",
+      "address": "lahore\npakistan",
+      "role":"admin",
+      "gender": "male"
+    },
+    {
+      "id": "ateebbuttuser",
+      "name": "Ateeb Butt",
+      "password": "user",
+      "email": "ateeb.butt@gmail.com",
+      "phone": "03238049493",
+      "country": "pakistan",
+      "address": "lahore\npakistan",
+      "role":"user",
+      "gender": "male"
+    }
+  ],
+  "roleaccess":[
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "customer":[
+    {
+      "code":1,
+      "name":"Chris",
+      "email":"chris@in.com",
+      "phone":"03234937362",
+      "occupation":"Cricketer",
+      "nationality":"NewZeland",
+      "gender": "Male"
+    },
+    {
+      "code":2,
+      "name":"Lynn",
+      "email":"lynn@in.com",
+      "phone":"03128080231",
+      "occupation":"Cricketer",
+      "nationality":"NewZeland",
+      "gender": "Male"
+    },
+    {
+      "code":3,
+      "name":"Tim",
+      "email":"tim@in.com",
+      "phone":"03329080781",
+      "occupation":"Cricketer",
+      "nationality":"NewZeland",
+      "gender": "Male"
+    },
+    {
+      "code":4,
+      "name":"Southee",
+      "email":"southee@in.com",
+      "phone":"03225678031",
+      "occupation":"Cricketer",
+      "nationality":"NewZeland",
+      "gender": "Male"
+    },{
+      "code":5,
+      "name":"boult",
+      "email":"bould@in.com",
+      "phone":"03123040231",
+      "occupation":"Cricketer",
+      "nationality":"NewZeland",
+      "gender": "Male"
+    },{
+      "code":5,
+      "name":"Suzi",
+      "email":"suzi@in.com",
+      "phone":"03123040231",
+      "occupation":"Cricketer",
+      "nationality":"NewZeland",
+      "gender": "Female"
+    }
+  ]
+}
