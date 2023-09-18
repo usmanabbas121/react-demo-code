@@ -19,7 +19,7 @@ Define & Run JSON Server REST API  ### `json-server --watch db.json --port 8000`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser - this will be the url where the project will be running.
-Open [http://localhost:3000](http://localhost:8000) in another window to view the json file data in your browser.
+Open [http://localhost:8000](http://localhost:8000) in another window to view the json file data in your browser.
 Open [http://localhost:8000/roleaccess?role=admin](http://localhost:8000/roleaccess?role=admin) filtered json.
 
 
